@@ -1,0 +1,89 @@
+
+/*estilizaçao geral da pagina */
+* {
+  margin: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+body{
+  background-color: #252222;
+}
+
+h1{
+  text-align: center; 
+  color: white;
+}
+
+h2{
+  color: #6c2828;
+}
+
+/*menu de links e cabecalho*/
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  border-radius: 2px;
+  background-color: white;
+  size: 10%;
+}
+
+.header a {
+  text-decoration: none;
+  color: #6c2828;
+}
+
+.header >a:hover{
+  background-color:  #6c2828;
+  color: white;
+  border-radius: 4px;
+}
+
+/*sessao de informacoes divididas em caixas*/
+.section1 {
+  border-radius: 3px;
+  size: flex;
+  background-color: white;
+  padding: 5px;
+}
+
+.section2 {
+  border-radius: 3px;
+  size: flex;
+  background-color: white;
+  padding: 5px;
+}
+
+.section3 {
+  border-radius: 3px;
+  size: flex;
+  background-color: white;
+  padding: 5px;
+}
+
+/*botao do link na parte do portfolio */
+.section3 a{
+  text-decoration: none;
+  color: blue;
+}
+
+/*personalizacao da caixa de entre em contato*/
+
+.section4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 3px;
+  size: flex;
+  background-color: white;
+  padding: 5px;
+}
+
+#enviar {
+  color: white;
+  background-color: #6c2828;
+  border-radius: 4px;
+  size: adjust;
+}
